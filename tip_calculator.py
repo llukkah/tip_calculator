@@ -1,10 +1,10 @@
 #total cost of food
 cost_of_food = float(input("Enter the total cost of food: "))
 
-#adding 10% sales tax
+#calculating 10% sales tax
 ten_tax = float((cost_of_food*.10))
 
-# letting user know the total cost of food after adding 10% sales tax
+# letting user know the 10% sales tax of the total cost of food
 print(f'Okay, 10% sales tax of {cost_of_food} is $ {ten_tax}')
 
 #asking number of peopel splitting bill
@@ -22,7 +22,7 @@ percentage_decimal = float(percentage_tip/100)
 #calculating tip of food cost
 tip_of_food = float(cost_of_food*percentage_decimal)
 
-#making sure tip of food
+#making sure tip of food amount is correct
 # print(f'tip of food: {tip_of_food}')
 
 #doing the math to add the total cost of food, tax, and the amount of % to tip
