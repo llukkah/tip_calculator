@@ -35,4 +35,13 @@ including_tip = float(ten_tax + tip_of_food + cost_of_food)
 each_person_pay = float(including_tip / num_people)
 
 #desired output
-print(f'The total bill including tip is $ {including_tip}.  Each person ({num_people}) should pay ${each_person_pay}')
+print('')
+print('________________________________________')
+print(f'Cost of food : ${cost_of_food}')
+print('+')
+print(f'10% Sales Tax : ${ten_tax}')
+print('+')
+print(f'{percentage_tip}% Tip: ${tip_of_food}')
+print('________________________________________')
+print(f'The total bill is ${including_tip}.\n  Each person ({num_people}) should pay ${each_person_pay}')
+
